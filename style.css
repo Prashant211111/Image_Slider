@@ -213,10 +213,19 @@ header .menu{
       top: 15%;
     }
   
-    .thumbnail {
+    /* .thumbnail {
       display: none; /* Hide thumbnails on very small screens */
-    }
-  }
+    } */
+    .thumbnail {
+        height: 150px;
+        padding: 0 20px;
+      }
+    
+      .thumbnail .item {
+        width: 100px;
+        height: 140px;
+      }
+  
 @media screen and (max-width: 678px) {
     .thumbnail{
         justify-content: start;
